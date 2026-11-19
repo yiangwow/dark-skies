@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9781f77fd4d98c40b26f132fd557d4c, type: 3}
+  m_Name: EnemyCombatConfig
+  m_EditorClassIdentifier: AlienSkies.Runtime::AlienSkies.Combat.CombatConfig
+  Settings:
+    MaxHealth: 40
+    RespawnDelay: 3
+    SwitchDelay: 0.25
+    HitscanRadius: 0.35
+    FragTarget: 10
+    RoundResetDelay: 6
+    Weapons:
+    - Name: Rocket
+      Damage: 30
+      FireInterval: 0.8
+      Pellets: 1
+      SpreadDegrees: 0
+      ProjectileSpeed: 150
+      SplashRadius: 6
+      Knockback: 22
+      SelfDamageScale: 0.5
+    - Name: Rifle
+      Damage: 20
+      FireInterval: 0.23
+      Pellets: 1
+      SpreadDegrees: 0
+      ProjectileSpeed: 0
+      SplashRadius: 0
+      Knockback: 0
+      SelfDamageScale: 0.5
+    - Name: Shotgun
+      Damage: 6
+      FireInterval: 0.9
+      Pellets: 20
+      SpreadDegrees: 7
+      ProjectileSpeed: 0
+      SplashRadius: 0
+      Knockback: 0
+      SelfDamageScale: 0.5

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e987dc34046da544876b5ceb0c3afc3, type: 3}
+  m_Name: MovementConfig
+  m_EditorClassIdentifier: AlienSkies.Runtime::AlienSkies.Movement.MovementConfig
+  Settings:
+    GroundAccel: 60
+    GroundMaxSpeed: 10
+    GroundFriction: 5.5
+    AirAccel: 25
+    AirControlMaxSpeed: 9
+    AirSteerRate: 120
+    Gravity: 16
+    JumpSpeed: 9
+    SoftCapSpeed: 45
+    SoftCapDrag: 0.5
+    GrapplePullAccel: 100
+    GrappleAttachSpeed: 12
+    GrappleSteerAccel: 18
+    GrappleReleaseBoost: 6
+    GrappleReleaseUpBoost: 2.5
+    GrappleRange: 120
+    AimAssistRadius: 3
+    ZipSpeed: 60
+    ZipArriveRadius: 2
+    ZipLandSpeed: 8
+    ZipCooldown: 3
+    KillY: -80
